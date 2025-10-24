@@ -63,6 +63,16 @@ kotlin {
 
                 api("io.ktor:ktor-client-android:3.3.0")
                 api("io.ktor:ktor-client-okhttp:3.3.0")
+
+                val lifecycle = "2.9.3"
+                api("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle")
+                api("androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycle")
+                api("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle")
+                api("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle")
+                api("androidx.lifecycle:lifecycle-runtime-compose:$lifecycle")
+                api("androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle")
+                api("androidx.lifecycle:lifecycle-common-java8:$lifecycle")
+                api("androidx.lifecycle:lifecycle-service:$lifecycle")
             }
         }
 
